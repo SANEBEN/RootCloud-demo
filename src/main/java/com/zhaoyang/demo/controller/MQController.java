@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/2/15 21:04
  * @email 473811301@qq.com
  */
-@RestController("/MQ")
+@RestController
+@RequestMapping("/MQ")
 public class MQController {
 
     private final Producer producer;
